@@ -26,4 +26,12 @@ public class Pizza {
     public void setIngredients(Map<String, Integer> ingredients) {
         this.ingredients = ingredients;
     }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "pizzaName='" + pizzaName + '\'' +
+                ", ingredients=" + ingredients +
+                '}';
+    }
 }
