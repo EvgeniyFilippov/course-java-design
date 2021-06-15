@@ -1,4 +1,4 @@
-package main.java.com.rakovets.course.design.practice.solid;
+package com.rakovets.course.design.practice.solid;
 
 import java.util.Map;
 
