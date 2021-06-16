@@ -36,4 +36,8 @@ public class OrderInfo {
     public void setPrice(Float price) {
         this.price = price;
     }
+
+    public String getOrderInfo() {
+        return pizzaName + timeOfOrder + price;
+    }
 }
